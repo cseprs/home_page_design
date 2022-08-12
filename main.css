@@ -1,0 +1,101 @@
+.text-block_image {
+    position: absolute;
+   top: 20%;
+    left: 30%;
+    transform: translate(-20%, -80%);
+  width: 400px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  text-align: justify;
+  opacity: .8;
+   
+  }
+  @media screen and (max-width: 499px) {  .text-block_image {
+    position: inherit;
+  width: 250px;
+    background-color: white;
+  transform: inherit;
+    color: black;
+  text-align: justify;
+  opacity: .8;
+  }
+  
+  
+  .button {
+    background-color: #c80f0f;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+  border-radius: 8px;
+   
+  }
+  .wrap {
+     
+      text-align:center;
+     
+  }
+  }
+  .wrap: hover {
+     
+      text-align:center;
+     transform: scale(1.1);
+  }
+  .text_over_image {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left:0;
+      right:0;
+      bottom:0;
+      color: white;
+     height: 50px;
+  border-bottom: 3px solid #FFFFFF;
+    width: fit-content;
+    font-size: 12px;
+  color: #FFFFFF;
+  }
+  
+  #logo{
+  max-width: none;
+  }
+  @media screen and (max-width: 499px)  { #logo{
+  max-width: 350px;
+  margin-top: 10px;
+  }}
+  /*navbar calls*/
+  body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+/*adding header image after nav bar*/
+.header {
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
