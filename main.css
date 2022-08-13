@@ -1,6 +1,8 @@
+
+/* this is the dialog box placed above the header background image*/
 .text-block_image {
     position: absolute;
-   top: 20%;
+   top: 40%;
     left: 30%;
     transform: translate(-20%, -80%);
   width: 400px;
@@ -9,9 +11,9 @@
     padding-left: 20px;
     padding-right: 20px;
   text-align: justify;
-  opacity: .8;
-   
+  opacity: .8; 
   }
+  /* this is for the small devices header image dialog box  */
   @media screen and (max-width: 499px) {  .text-block_image {
     position: inherit;
   width: 250px;
@@ -20,12 +22,12 @@
     color: black;
   text-align: justify;
   opacity: .8;
-  }
+  }}
   
-  
-  .button {
+  /* sign up button design */
+  .btn-default {
     background-color: #c80f0f;
-    border: none;
+    border: lightgreen;
     color: white;
     padding: 10px 12px;
     text-align: left;
@@ -36,17 +38,19 @@
   border-radius: 8px;
    
   }
+  /* for the images aligned */
   .wrap {
      
       text-align:center;
      
   }
-  }
+  /*when hover visual effects */
   .wrap: hover {
      
       text-align:center;
      transform: scale(1.1);
   }
+  /*text placed over the images  */
   .text_over_image {
       position: absolute;
       margin: auto;
@@ -61,7 +65,7 @@
     font-size: 12px;
   color: #FFFFFF;
   }
-  
+  /* */
   #logo{
   max-width: none;
   }
@@ -69,6 +73,7 @@
   max-width: 350px;
   margin-top: 10px;
   }}
+
   /*navbar calls*/
   body {
     padding: 0;
@@ -94,7 +99,7 @@
 }
 /*adding header image after nav bar*/
 .header {
-    background-image: url('images/header-background.jpg');
+    background-image: url('placeholder_header.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
