@@ -47,7 +47,7 @@
   /*when hover visual effects */
   .wrap: hover {
      
-      text-align:center;
+     text-align:center;
      transform: scale(1.1);
   }
   /*text placed over the images  */
@@ -60,10 +60,12 @@
       bottom:0;
       color: white;
      height: 50px;
-  border-bottom: 3px solid #FFFFFF;
+     text-decoration: underline;
+     text-decoration-thickness: 3px;
+  text-underline-offset: 12px;
     width: fit-content;
-    font-size: 12px;
-  color: #FFFFFF;
+    font-size: 16px;
+  color: #1bb938;
   }
   /* */
   #logo{
