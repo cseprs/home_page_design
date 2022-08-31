@@ -45,10 +45,13 @@
      
   }
   /*when hover visual effects */
-  .wrap: hover {
+  
+  .img-fluid.atto_image_button_text-bottom:hover{
      
      text-align:center;
      transform: scale(1.1);
+     
+     
   }
   /*text placed over the images  */
   .text_over_image {
@@ -67,6 +70,7 @@
     font-size: 16px;
   color: #1bb938;
   }
+  
   /* */
   #logo{
   max-width: none;
