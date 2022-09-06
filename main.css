@@ -105,8 +105,20 @@
 }
 /*adding header image after nav bar*/
 .header {
-    background-image: url('placeholder_header.jpg');
+    background-image: url('virender-singh-hE0nmTffKtM-unsplash.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
 }
+/*adding footer styles*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+body {
+  margin: 10px;
+  
+}
+
